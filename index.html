@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700|Titillium+Web:700" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+
+
+    <div class="mainHeader">
+        <h1 class="text-center" id="header-title">CRYSTAL COLLECTOR</h1>
+        <h2 class="text-center">RULES EXPLANATION HERE</h2>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div>
+                <div>
+                    <h3>Reach this number: </h3>
+                </div>
+                <div>
+                    <h1>
+                        <span id="computer-pick"></span>
+                    </h1>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Click a crystal to add some number</h3>
+                </div>
+                <div class="images text-center">
+                    <img id="blue" src="https://img1.etsystatic.com/007/0/6869046/il_fullxfull.393626469_6w2s.jpg" alt="first crystal" height="150px">
+                    <img id="red" src="assets/images/red_2.jpg" alt="second crystal" height="150px">
+                    <img id="green" src="https://i.pinimg.com/236x/71/f5/a5/71f5a5f5718baa82451ce4dc5330f843.jpg" alt="third crystal" height="150px">
+                    <img id="violet" src="https://previews.123rf.com/images/terezie/terezie1401/terezie140100012/24913526-purple-amethyst-on-white-background-Stock-Photo.jpg" alt="fours crystal" height="150px">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class=col-lg-6>
+                <div>
+                    <div id="panel-color">
+                    </div>
+
+                    <div>
+
+                        <h2>Your Score:
+                            <span id="my-score">0</span>
+                        </h2>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class=col-lg-6>
+                <div>
+                    <div id="panel-color">
+                        <h3 id="total-score"></h3>
+                    </div>
+
+                    <div>
+
+                        <h3>Wins :
+                            <span id="my-wins">0</span>
+                        </h3>
+                        <h3>Losses :
+                            <span id="my-losses">0</span>
+                        </h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assets/javascript/game.js">
+    </script>
+
+</body>
+
+</html>
