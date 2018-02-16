@@ -4,4 +4,4 @@ A simple game that generates a random number that the user must match by clickin
 #### Gitpage: https://ekaterinashainiak.github.io/Crystal-collector-game/
 
 
-![Screenshot](/assets/images/ScreenShot.png)
+![Screenshot](/assets/images/ScreenShot1.png)
