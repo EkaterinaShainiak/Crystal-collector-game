@@ -1,10 +1,14 @@
 .images {
     margin-top: 50px;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
     margin-left: 50px;
 }
 body {
     font-family: 'Titillium Web', sans-serif;
     font-family: 'Raleway', sans-serif;
     /* background: "assets/images/background.jpg"; */
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.jumbotron {
 }
